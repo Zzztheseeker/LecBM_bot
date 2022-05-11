@@ -1,17 +1,18 @@
 class Video:
     
-    def __init__(self, name, url, desc):
-        self.name = name
-        self.url = url
-        self.desc = desc
+    def __init__(self, name, Id, desc, playlist_id, position):  # position starts from 0
+        self.nameU = name
+        self.name = name.lower()
+        self.desc = desc.lower()
+        self.descU = desc
+        self.pl_id = playlist_id  # video location i.e. playlist
+        self.url = 'https://www.youtube.com/watch?v=' + Id + '&list=' + playlist_id + '&index=' + str(position + 1)
         
-    def get_staff(self, *args):
-        z = []
-        if name in args:
-            z.append(self.name)      
-        if url in args:
-            z.append(self.url)     
-        if desc in args:
-            z.append(self.desc)  
-        return z
-    
+        
+        if self.desc == '#shorts':  # makes two categories of videos
+            self.sense = False
+        else:
+            self.sense = True
+        
+ 
+

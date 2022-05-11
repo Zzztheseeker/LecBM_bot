@@ -1,6 +1,7 @@
 import os
 import pickle
-from Video import Video, Playlist
+from Video import Video
+from Playlist import Playlist
 from googleapiclient.discovery import build
 api_key = os.environ.get('API_KEY')
 
@@ -27,9 +28,9 @@ for item in ch_response['items']:
 # parsing playlist
 for playlist in pl_list:
     pl_request = youtube.playlistItems().list(
-        part='snippet',
-        playlistId=playlist.id,
-        maxResults=50
+        part = 'snippet',
+        playlistId = playlist.Id,
+        maxResults = 50
     )
     pl_response = pl_request.execute()
     # creating a list of objects <class 'Video'>
@@ -45,11 +46,11 @@ for playlist in pl_list:
                 new_code = descript.find('Ходите на лекции.')
                 if new_code != -1:
                     code = new_code
-                    new_code = descript.find('Максим Тадей')
-                    if new_code != -1:
-                        code = new_code - 3
+                    #new_code = descript.find('Максим Тадей')
+                    #if new_code != -1:
+                        #code = new_code - 3
                 descript = descript[:code-1]
-        vivi = Video(item['snippet']['title'], item['snippet']['resourceId']['videoId'], descript, playlist.id, item['snippet']['position'])  # making video as object <class 'Video'>
+        vivi = Video(item['snippet']['title'], item['snippet']['resourceId']['videoId'], descript, playlist.Id, item['snippet']['position'])  # making video as object <class 'Video'>
         vids_from_pl.append(vivi)
     playlist.add_videos(vids_from_pl)
 
