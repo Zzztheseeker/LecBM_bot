@@ -62,7 +62,7 @@ def start(message):
             for i in cplt:
                 for j in pl_list:
                     if i in j.name:
-                        fpl.add(i)
+                        fpl.add(j)
                         flag = False
                             
         if flag:
@@ -97,7 +97,7 @@ def send_video(message):
             for j in fpl:
                 for k in j.videos:
                     if i in k.desc:
-                        fv.add(j)
+                        fv.add(k)
                         flag2 = False                                
             
             
