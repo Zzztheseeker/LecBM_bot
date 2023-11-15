@@ -1,0 +1,17 @@
+reviewing vid_response
+{'kind': 'youtube#video', 'etag': 'bLLADBTcGHhXL2hZAsq3LW4KMzk', 'id': 'lEY11frWDQY', 
+'contentDetails': {'duration': 'PT1H23M19S', 
+		'dimension': '2d', 
+		'definition': 'hd', 
+		'caption': 'false', 
+		'licensedContent': False, 
+		'contentRating': {}, 
+		'projection': 'rectangular'}}
+
+{'kind': 'youtube#video', 'etag': '08s8Ipt1W_2RmuOLuq7X8c3LCGc', 'id': 'Sod5kSzUVNo', 'contentDetails': {'duration': 'PT1H24M42S', 'dimension': '2d', 'definition': 'hd', 'caption': 'false', 'licensedContent': False, 'contentRating': {}, 'projection': 'rectangular'}}
+
+{'kind': 'youtube#video', 'etag': 'qiqzsp6JXwS_iE0KsseCkQpAvls', 'id': 'avR85SVqEU4', 'contentDetails': {'duration': 'PT1H27M50S', 'dimension': '2d', 'definition': 'hd', 'caption': 'false', 'licensedContent': False, 'contentRating': {}, 'projection': 'rectangular'}}
+
+{'kind': 'youtube#video', 'etag': 'YACp8169OOlnjhi-VsGhOHW9qc4', 'id': 'vq0sACd68eo', 'contentDetails': {'duration': 'PT1H28M45S', 'dimension': '2d', 'definition': 'hd', 'caption': 'false', 'licensedContent': False, 'contentRating': {}, 'projection': 'rectangular'}}
+
+{'kind': 'youtube#video', 'etag': 'BhA3lYzgJFkcf33F52xxMU-sUfg', 'id': 'ncm4ZDzW9Co', 'contentDetails': {'duration': 'PT1H27M10S', 'dimension': '2d', 'definition': 'hd', 'caption': 'false', 'licensedContent': False, 'contentRating': {}, 'projection': 'rectangular'}}

@@ -1,0 +1,162 @@
+Как выглядит ch_response: # youtube.playlists().list(part='contentDetails')
+#большой словарь
+{'kind': 'youtube#playlistListResponse', 
+'etag': 'lsSGzvhukYMkMlsrAIrLR5qwl88', 
+'nextPageToken': 'CAUQAA', 
+'pageInfo': {'totalResults': 10, 'resultsPerPage': 5}, 
+'items': 
+	#список из словарей - здесь находятся плейлисты, каждый плейлист это словарь
+	[ #1й словарь
+		{'kind': 'youtube#playlist', 
+	'etag': 'JL0aAtYLqyiZNhmMmIFhDis5sjU', 
+	'id': 'PLCHxbklCcsOYK6tsvEE_luKZMUDbJd1Af', 
+	'snippet': #подсловарь
+		{'publishedAt': '2022-03-19T09:58:58Z', 
+		'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+		'title': 'Демонстрации: термодинамика и молекулярная физика', 
+		'description': '', 
+		'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/pSvaTXqph3M/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/pSvaTXqph3M/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/pSvaTXqph3M/hqdefault.jpg', 'width': 480, 'height': 360}, 'standard': {'url': 'https://i.ytimg.com/vi/pSvaTXqph3M/sddefault.jpg', 'width': 640, 'height': 480}, 'maxres': {'url': 'https://i.ytimg.com/vi/pSvaTXqph3M/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+	'channelTitle': 'Лекторий ФБМФ', 
+	'localized': {'title': 'Демонстрации: термодинамика и молекулярная физика', 'description': ''}}, 
+	'contentDetails': {'itemCount': 4}}, 
+			
+	#2йсловарь
+		{'kind': 'youtube#playlist', 
+			'etag': 'PRPsUNBLv-aTPbokJf5huqctf0E', 
+			'id': 'PLCHxbklCcsOZkicopsMkYVSmXrbvxkdw8', 
+			'snippet': ##подподсловарь {'publishedAt': '2022-03-19T09:58:45Z', 
+				'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+				'title': 'Демонстрации: механика', 
+				'description': '', 
+				'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/9V3agN1x08Q/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/9V3agN1x08Q/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/9V3agN1x08Q/hqdefault.jpg', 'width': 480, 'height': 360}, 'standard': {'url': 'https://i.ytimg.com/vi/9V3agN1x08Q/sddefault.jpg', 'width': 640, 'height': 480}, 'maxres': {'url': 'https://i.ytimg.com/vi/9V3agN1x08Q/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+			'channelTitle': 'Лекторий ФБМФ', 
+			'localized': {'title': 'Демонстрации: механика', 'description': ''}}, 
+			'contentDetails': {'itemCount': 35}}, 
+	#3йсловарь
+			{'kind': 'youtube#playlist', 
+			'etag': 'hLo4RZdrwlNeYuri-rOeddetdxU', 
+			'id': 'PLCHxbklCcsOYBmkfbP5Drlvf8CQftRjAg', 
+			'snippet': ##подподсловарь {'publishedAt': '2022-03-15T18:40:05Z', 
+				'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+				'title': 'Консультации Никиты Чернова и Павла Сазонова', 
+				'description': '', 
+				'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/Q9QXI27ZXLk/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/Q9QXI27ZXLk/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/Q9QXI27ZXLk/hqdefault.jpg', 'width': 480, 'height': 360}}, 
+			'channelTitle': 'Лекторий ФБМФ', 
+			'localized': {'title': 'Консультации Никиты Чернова и Павла Сазонова', 'description': ''}}, 
+			'contentDetails': {'itemCount': 1}}, 
+	#4йсловарь
+			{'kind': 'youtube#playlist', 
+			'etag': 'asNoBIilERJ3YvQW-hvDt8sdK6w', 
+			'id': 'PLCHxbklCcsOYmfkUcezNo3x5xtW1U2NlF', 
+			'snippet': ##подподсловарь {'publishedAt': '2022-02-22T17:10:52Z', 
+				'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+				'title': '1 курс, Дополнительные занятия по биологии, Трушников Д.Ю.', 
+				'description': '', 
+				'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/2gvBI4YSiT8/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/2gvBI4YSiT8/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/2gvBI4YSiT8/hqdefault.jpg', 'width': 480, 'height': 360}, 'standard': {'url': 'https://i.ytimg.com/vi/2gvBI4YSiT8/sddefault.jpg', 'width': 640, 'height': 480}}, 
+			'channelTitle': 'Лекторий ФБМФ',
+			'localized': {'title': '1 курс, Дополнительные занятия по биологии, Трушников Д.Ю.', 'description': ''}}, 	
+			'contentDetails': {'itemCount': 6}}, 
+	#5йсловарь
+			{'kind': 'youtube#playlist', 
+			'etag': 'EdCtee6xSKhRbTZksLQ3UhB1en0', 
+			'id': 'PLCHxbklCcsObHQVmWyAG41xgxybkzVko-', 
+			'snippet':##подподсловарь
+				{'publishedAt': '2022-02-16T14:00:59Z', 
+				'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+				'title': '1 курс, Биология клетки, Носов Г.А.', 'description': '', 
+				'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/akGj-2RTbG4/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/akGj-2RTbG4/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/akGj-2RTbG4/hqdefault.jpg', 'width': 480, 'height': 360}, 'standard': {'url': 'https://i.ytimg.com/vi/akGj-2RTbG4/sddefault.jpg', 'width': 640, 'height': 480}, 'maxres': {'url': 'https://i.ytimg.com/vi/akGj-2RTbG4/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+			'channelTitle': 'Лекторий ФБМФ', 
+			'localized': {'title': '1 курс, Биология клетки, Носов Г.А.', 'description': ''}}, 
+	'contentDetails': {'itemCount': 8}}
+	]
+}
+
+<class 'dict'>
+
+
+
+#List of playlists 09.05.2022:
+PLCHxbklCcsOYK6tsvEE_luKZMUDbJd1Af,PLCHxbklCcsOZkicopsMkYVSmXrbvxkdw8,PLCHxbklCcsOYBmkfbP5Drlvf8CQftRjAg,PLCHxbklCcsOYmfkUcezNo3x5xtW1U2NlF,PLCHxbklCcsObHQVmWyAG41xgxybkzVko-,PLCHxbklCcsOZArp4XaBX50A_jrm_zbCOM,PLCHxbklCcsOaU_Jmf7-xyz4NnuogZ-5Aw,PLCHxbklCcsOZoYwKSbOuDdEyWPNlHKdMs,PLCHxbklCcsOZ7FgTiZuOzNbCDKVx1HG3U,PLCHxbklCcsObnQuG4EdnPID3DTDvWVD6I
+
+#analysing video_url
+url = 'https://www.youtube.com/watch?v='+ item['resourceId']['videoId'] + '&list=' + playlist + '&index=' + str(items['position']+1)
+
+https://www.youtube.com/watch?v=lEY11frWDQY&list=PLCHxbklCcsObnQuG4EdnPID3DTDvWVD6I&index=1
+
+#analysing playlist_url
+url = '//www.youtube.com/playlist?list=' + self.id
+
+https://www.youtube.com/playlist?list=PLCHxbklCcsOaU_Jmf7-xyz4NnuogZ-5Aw
+
+#reviewing pl_response - first 2 videos using youtube.playlistItems().list(part='contentDetails, snippet')
+
+{'kind': 'youtube#playlistItemListResponse', 'etag': 'FNn0oIA4mzpa3JDQal4IMdCZivc', 
+'items': [
+	{'kind': 'youtube#playlistItem', 'etag': 'cX5QuSNfOkRjgN78Z0-5_HjMXVk', 'id': 'UExDSHhia2xDY3NPYm5RdUc0RWRuUElEM0RURHZXVkQ2SS41NkI0NEY2RDEwNTU3Q0M2', 
+	'snippet': {'publishedAt': '2022-02-05T14:52:41Z', 
+		'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+		'title': 'Многомерный анализ, 2 лекция, Сакбаев В.Ж., 04.02.2022, 1 курс', 
+		'description': 'Съёмка и обработка: Георгий Мингалёв.\n\nТаймкоды:\n00:00 | Т(3) (Больцмана-Вейерштрасса)\n17:55 | Тема: Открытые и замкнутые множества\n19:00 | О(1) Внутренняя точка\n21:04 | О(2) Открытое множество\n24:08 | Л(1) Окрестность точки - открытое множество\n30:20 | Замечание\n32:43 | Л(2) Объединение открытых множеств - открытое множество\n37:38 | Л(3) Пересечение конечного числа открытых множеств - открытое множество\n43:40 | Замечание\n47:23 | О(5) Предельная точка\n48:53 | О(4) Проколотая окрестность точки\n50:20 | Л(4) 1 часть\n57:24 | Л(4) 2 часть\n1:01:15 | Пример\n1:01:51 | О(6) Замкнутое множество\n1:03:45 | Т(1) 1 часть\n1:11:32 | T(1) 2 часть\n1:17:29 | О(7) Точка прикосновения\n1:18:34 | О(8) Изолированная точка\n1:20:29 | Доказать самим\n\nХодите на лекции.\n\nСайт: https://sites.google.com/phystech.edu/lectory-dbmp\nГруппа ВКонтакте: https://vk.com/public211075518\nТелеграм-канал: https://t.me/DBMP_lectures\nЯндекс.Дзен: https://zen.yandex.ru/id/6223ba790df7e63ddd2314c7', 
+		'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/lEY11frWDQY/default.jpg', 'width': 120, 'height': 90}, 
+				'medium': {'url': 'https://i.ytimg.com/vi/lEY11frWDQY/mqdefault.jpg', 'width': 320, 'height': 180}, 
+				'high': {'url': 'https://i.ytimg.com/vi/lEY11frWDQY/hqdefault.jpg', 'width': 480, 'height': 360}, 
+				'standard': {'url': 'https://i.ytimg.com/vi/lEY11frWDQY/sddefault.jpg', 'width': 640, 'height': 480}, 
+				'maxres': {'url': 'https://i.ytimg.com/vi/lEY11frWDQY/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+	'channelTitle': 'Лекторий ФБМФ', 
+	'playlistId': 'PLCHxbklCcsObnQuG4EdnPID3DTDvWVD6I', 
+	'position': 0, 
+	'resourceId': {'kind': 'youtube#video', 'videoId': 'lEY11frWDQY'}, 
+	'videoOwnerChannelTitle': 'Лекторий ФБМФ', 
+	'videoOwnerChannelId': 'UC95pxYA1WsVxh9GKJ59lfpQ'}, 
+	'contentDetails': {'videoId': 'lEY11frWDQY', 'videoPublishedAt': '2022-02-04T19:27:08Z'}}, 
+
+
+	{'kind': 'youtube#playlistItem', 'etag': 'anfF1SpNZ9zzPknaQkmt5ciEFeY', 'id': 'UExDSHhia2xDY3NPYm5RdUc0RWRuUElEM0RURHZXVkQ2SS4yODlGNEE0NkRGMEEzMEQy', 
+	'snippet': {'publishedAt': '2022-02-08T15:55:43Z', 
+		'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+		'title': 'Многомерный анализ, 3 лекция, Сакбаев В.Ж., 08.02.2022, 1 курс', 
+		'description': 'Съёмка: Георгий Мингалёв.\nОбработка: Константин Клочков.\n\n00:00 | О7. Замыкание мн-ва.\n02:35 | Л1. Мн-во и его замыкание.\n07:41 | Т2. Замкнутость замыкания.\n17:21 | Т3. Замыкание замкнутого мн-ва.\n23:40 | Упражнение.\n26:47 | Т4. Объединение и совокупность откр./закр. мн-в.\n34:34 | Пример.\n37:27 | О8. Граничная точка.\n40:16 | О9. Граница мн-ва.\n41:09 | Л3. Точка границы мн-ва.\n45:14 | Л2. Граница мн-ва и его дополнения.\n46:10 | О10.  Внутренность мн-ва.\n47:13 | Т5. Покрытие, внутренность и граница.\n53:12 | Упражнение.\n54:37 | О1. Замкнутый прямоугольный ||-пед.\n56:44 | Л1. Замкнутость ЗПП.\n58:27 | О2. Последовательность вложенных кубов.\n59:48 | Т1. Общая точка пос-ти вложенных.\n1:03:14 | О3. (Открытое - пример) покрытие мн-ва.\n1:06:26 | О4. Компактное мн-во.\n1:07:34 | Т2. Лемма Гейне-Бореля.\n- Максим Тадей.\n\nХодите на лекции.\n\nСайт: https://sites.google.com/phystech.edu/lectory-dbmp\nГруппа ВКонтакте: https://vk.com/public211075518\nТелеграм-канал: https://t.me/DBMP_lectures\nЯндекс.Дзен: https://zen.yandex.ru/id/6223ba790df7e63ddd2314c7', 
+		'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/Sod5kSzUVNo/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/Sod5kSzUVNo/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/Sod5kSzUVNo/hqdefault.jpg', 'width': 480, 'height': 360}, 'standard': {'url': 'https://i.ytimg.com/vi/Sod5kSzUVNo/sddefault.jpg', 'width': 640, 'height': 480}, 'maxres': {'url': 'https://i.ytimg.com/vi/Sod5kSzUVNo/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+	'channelTitle': 'Лекторий ФБМФ', 
+	'playlistId': 'PLCHxbklCcsObnQuG4EdnPID3DTDvWVD6I', 
+	'position': 1, 
+	'resourceId': {'kind': 'youtube#video', 'videoId': 'Sod5kSzUVNo'}, 
+	'videoOwnerChannelTitle': 'Лекторий ФБМФ', 
+	'videoOwnerChannelId': 'UC95pxYA1WsVxh9GKJ59lfpQ'}, 
+	'contentDetails': {'videoId': 'Sod5kSzUVNo', 'videoPublishedAt': '2022-02-08T16:25:43Z'}}, 
+
+	}], 
+'pageInfo': {'totalResults': 27, 'resultsPerPage': 50}
+}
+
+
+
+#review of pl_response['items'][26] using youtube.playlistItems().list(part='snippet')
+{'kind': 'youtube#playlistItem', 'etag': 'FS__-KglQhfXfNHRpEDbiuh62Jw', 'id': 'UExDSHhia2xDY3NPYm5RdUc0RWRuUElEM0RURHZXVkQ2SS5DMkU4NTY1QUFGQTYwMDE3', 
+'snippet': {'publishedAt': '2022-05-09T07:31:13Z', 'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 'title': 'Многомерный анализ, 28 лекция, Сакбаев В.Ж., 06.05.2022, 1 курс', 'description': '', 'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/8371xNd5xCE/default.jpg', 'width': 120, 'height': 90}, 'medium': {'url': 'https://i.ytimg.com/vi/8371xNd5xCE/mqdefault.jpg', 'width': 320, 'height': 180}, 'high': {'url': 'https://i.ytimg.com/vi/8371xNd5xCE/hqdefault.jpg', 'width': 480, 'height': 360}, 'standard': {'url': 'https://i.ytimg.com/vi/8371xNd5xCE/sddefault.jpg', 'width': 640, 'height': 480}, 'maxres': {'url': 'https://i.ytimg.com/vi/8371xNd5xCE/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+'channelTitle': 'Лекторий ФБМФ', 
+'playlistId': 'PLCHxbklCcsObnQuG4EdnPID3DTDvWVD6I', 
+'position': 26, 
+'resourceId': {'kind': 'youtube#video', 'videoId': '8371xNd5xCE'}, 
+'videoOwnerChannelTitle': 'Лекторий ФБМФ', 
+'videoOwnerChannelId': 'UC95pxYA1WsVxh9GKJ59lfpQ'}}
+
+
+{'kind': 'youtube#playlistItem', 
+'etag': 'IlKeWvB4tZgNno8w46SGlPkU83g', 
+'id': 'UExDSHhia2xDY3NPYm5RdUc0RWRuUElEM0RURHZXVkQ2SS5DNzE1RjZEMUZCMjA0RDBB', 
+'snippet': {'publishedAt': '2022-04-24T09:36:56Z', 
+	'channelId': 'UC95pxYA1WsVxh9GKJ59lfpQ', 
+	'title': 'Многомерный анализ, 24 лекция, Сакбаев В.Ж., 22.04.2022, 1 курс', 
+	'description': '00:00 | Т3. Об умножении абс. сх. рядов.\n19:29 | О1. Функциональная посл-ть.\n24:38 | Пример.\n25:03 | О2. Поточечная сх-ть Ф.П.\n26:53 | Л1. Пред. ф-ция Ф. П.\n34:00 | О3. Функциональный ряд.\n36:51 | О4. П-ть частичных сумм Ф.Р.\n38:03 | О5. Сх-ть и поточ. сх-ть Ф.Р.\n41:37 | Замечание.\n43:32 | Примеры.\n59:20 | О1. Равномерная сх-ть Ф.П.\n1:02:40 | 1:09:13 Замечание.\n1:11:47 | Т1. Критерий равн. сх-ти Ф.П.\n1:21:02 | Т2. Критерий КОши равн. сх-ти Ф.П.\n- Максим Тадей.', 
+	'thumbnails': {'default': {'url': 'https://i.ytimg.com/vi/JU4PU9e2daE/default.jpg', 'width': 120, 'height': 90}, 
+			'medium': {'url': 'https://i.ytimg.com/vi/JU4PU9e2daE/mqdefault.jpg', 'width': 320, 'height': 180}, 
+			'high': {'url': 'https://i.ytimg.com/vi/JU4PU9e2daE/hqdefault.jpg', 'width': 480, 'height': 360}, 
+			'standard': {'url': 'https://i.ytimg.com/vi/JU4PU9e2daE/sddefault.jpg', 'width': 640, 'height': 480}, 
+			'maxres': {'url': 'https://i.ytimg.com/vi/JU4PU9e2daE/maxresdefault.jpg', 'width': 1280, 'height': 720}}, 
+	'channelTitle': 'Лекторий ФБМФ', 
+	'playlistId': 'PLCHxbklCcsObnQuG4EdnPID3DTDvWVD6I', 
+	'position': 22, 
+	'resourceId': {'kind': 'youtube#video', 'videoId': 'JU4PU9e2daE'}, 
+	'videoOwnerChannelTitle': 'Лекторий ФБМФ', 
+	'videoOwnerChannelId': 'UC95pxYA1WsVxh9GKJ59lfpQ'}}
